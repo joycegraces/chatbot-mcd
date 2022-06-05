@@ -31,6 +31,24 @@
 
 <category>
     <pattern>
+        ada kategori makanan * 
+    </pattern>
+    <template>
+       <srai> makanan </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        kategori makanan * 
+    </pattern>
+    <template>
+       <srai> makanan </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
         menu makanan 
     </pattern>
     <template>
@@ -146,9 +164,10 @@
     </template>
 </category>
 
+
 <category>
     <pattern>
-      jual dimsum apa?
+      jual dimsum apa *
     </pattern>
     <template>
         <srai>dimsum</srai>
@@ -420,8 +439,6 @@
         <srai>halal</srai>
     </template>
 </category>
-
-
 
 <category>
     <pattern>

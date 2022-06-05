@@ -222,8 +222,6 @@
     </template>
 </category>
 
-
-
 <category>
     <pattern>
       jam buka
@@ -257,6 +255,15 @@
     </pattern>
     <template>
        Kami menerima pembayaran cash,scan QR dan Kartu Debit
+    </template>
+</category>
+
+<category>
+    <pattern>
+        metode pembayaran
+    </pattern>
+    <template>
+       <srai>bayar</srai>
     </template>
 </category>
 
@@ -325,6 +332,24 @@
 
 <category>
     <pattern>
+        metode pembayaran
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ada metode pembayaran *
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
         jenis metode pembayaran
     </pattern>
     <template>
@@ -334,10 +359,37 @@
 
 <category>
     <pattern>
-        apa tempat pakir luas *
+        tempat parkir
     </pattern>
     <template>
         Disetiap gerai gacoan tersedia tempat parkir
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa tempat pakir luas *
+    </pattern>
+    <template>
+        <srai>tempat parkir</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa tempat pakir *
+    </pattern>
+    <template>
+        <srai>tempat parkir</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apakah ada tempat pakir 
+    </pattern>
+    <template>
+        <srai>tempat parkir</srai>
     </template>
 </category>
 
@@ -361,19 +413,19 @@
 
 <category>
     <pattern>
-        mushola
+        apakah ada tempat indoor 
     </pattern>
     <template>
-        Ada
+        Kami menyediakan tempat outdoor maupun indoor
     </template>
 </category>
 
 <category>
     <pattern>
-        tempat mushola
+        apakah ada tempat outdoor 
     </pattern>
     <template>
-        <srai>mushola</srai>
+        Kami menyediakan tempat outdoor maupun indoor
     </template>
 </category>
 
@@ -433,4 +485,149 @@
     </template>
 </category>
 
+<category>
+    <pattern>
+      smoking area
+    </pattern>
+    <template>
+      Kami menyediakan smoking area di bagian outdoor
+    </template>
+</category>
+
+<category>
+    <pattern>apakah ada smoking area *</pattern>
+    <template>
+        <srai>smoking area</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+      tempat rokok
+    </pattern>
+    <template>
+      Kami menyediakan smoking area di bagian outdoor
+    </template>
+</category>
+
+<category>
+    <pattern>
+        child chair
+    </pattern>
+    <template>
+        Kami menyediakan child chais 3 buah
+    </template>
+</category>
+
+<category>
+    <pattern>apakah ada kursi anak *</pattern>
+    <template>
+        <srai>child chair</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>apakah ada kursi bayi *</pattern>
+    <template>
+        <srai>child chair</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>kursi untuk anak</pattern>
+    <template>
+        <srai>child chair</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>kursi untuk bayi</pattern>
+    <template>
+        <srai>child chair</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>ada kursi anak</pattern>
+    <template>
+        <srai>child chair</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>terdapat kursi anak</pattern>
+    <template>
+        <srai>child chair</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>colokan</pattern>
+    <template>
+        Kami menyediakan stop kontak di setiap sudut gerai
+    </template>
+</category>
+
+<category>
+    <pattern>apakah ada colokan</pattern>
+    <template>
+        <srai>>colokan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>stop kontak</pattern>
+    <template>
+        <srai>colokan</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>toilet</pattern>
+    <template>
+        Kami menyediakan toilet wanita dan pria 
+    </template>
+</category>
+
+<category>
+    <pattern>apakah terdapat toliet</pattern>
+    <template>
+        <srai>toilet</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>apakah ada toliet</pattern>
+    <template>
+        <srai>toilet</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        mushola
+    </pattern>
+    <template>
+        Ada kak
+    </template>
+</category>
+
+<category>
+    <pattern>
+        tempat mushola
+    </pattern>
+    <template>
+        <srai>mushola</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        tempat sholat
+    </pattern>
+    <template>
+        <srai>mushola</srai>
+    </template>
+</category>
 </aiml>

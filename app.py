@@ -73,9 +73,18 @@ class ChatApplication:
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
         
+        respon = get_respond(msg)
+        responses = ""
+        for kata in respon:
+            if (kata=="~"):
+                responses +="\n\t"
+                continue
+            elif(kata=="*"):
+                responses +="\t"
+                continue
+            responses+=kata+""
 
-
-        msg2 = f"GacoanMin\t> {get_respond(msg)}\n\n\n"
+        msg2 = f"GacoanMin\t> {responses}\n\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(state=DISABLED)
