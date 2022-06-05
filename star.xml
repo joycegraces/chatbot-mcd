@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+<!-- star.xml -->
+<category>
+    <pattern>AIML A</pattern>
+        <template>
+            <learn>bagian_awal.aiml</learn>
+            <learn>kategori_minuman.aiml</learn>
+            <learn>kategori_makanan.aiml</learn>
+            <learn>deskripsi_restoran.aiml</learn>
+        </template>
+</category>
+</aiml>

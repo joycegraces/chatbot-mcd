@@ -1,0 +1,459 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+    <aiml version="2" encoding="ISO-8859-1">
+    <!-- kategori_minuman.aiml -->
+
+<category>
+    <pattern>
+        Minuman
+    </pattern>
+    <template>
+        Berikut minuman di restoran Kami : ~
+        Es Genderuwo        9,1k ~
+        Es Tuyul            5,9k ~
+        Es Sundel Bolong    5,9k ~
+        Es Pocong           9,1k ~
+        Mineral             4,1k ~
+        Lemon Tea           5,9k ~
+        Milo                8,2k ~
+        Orange              5,0k ~
+        Es Tea              4,1k ~
+        Tea Tarik           6,4k ~
+        Vanilla Latte       8,2k ~
+        Thai Tea            8,2k ~
+        Thai Green Tea      8,2k ~
+        Es Coklat           8,2k ~
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa saja minuman * 
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ada minuman apa *
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        jual minuman *
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        minuman ada apa *
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        menu minuman
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ada minuman es *
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        es
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ada minuman dingin *
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        minuman dingin
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        minuman panas
+    </pattern>
+    <template>
+        Lemon Tea           5,9k ~
+        Milo                8,2k ~
+        Orange              5,0k ~
+        Es Tea              4,1k ~
+        Tea Tarik           6,4k ~
+        Vanilla Latte       8,2k ~
+        Thai Tea            8,2k ~
+        Thai Green Tea      8,2k ~
+        Es Coklat           8,2k ~
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ada minuman panas *
+    </pattern>
+    <template>
+        <srai>minuman panas</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ada jenis minuman *
+    </pattern>
+    <template>
+        <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        minuman paling laris *
+    </pattern>
+    <template>
+        Es Genderuwo    9,1k
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Genderuwo
+    </pattern>
+    <template>
+        Es Genderuwo adalah campuran sirup dan susu, ditambah dengan berbagai macam buah-buahan, jelly dan juga cincau yang bikin minuman-minuman ini jadi tambah segar dan nikmat.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa itu Es Genderuwo
+    </pattern>
+    <template>
+        <srai>Es Genderuwo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa saja isi Es Genderuwo
+    </pattern>
+    <template>
+        <srai>Es Genderuwo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Isi dari es Genderuwo
+    </pattern>
+    <template>
+        <srai>Es Genderuwo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Genderuwo *
+    </pattern>
+    <template>
+        <srai>Es Genderuwo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Rasa Es Genderuwo
+    </pattern>
+    <template>
+        Es Genderuwo memiliki rasa manis dan segar
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bagaimana Rasa Es Genderuwo
+    </pattern>
+    <template>
+        <srai>Rasa Es Genderuwo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Tuyul
+    </pattern>
+    <template>
+        Es Tuyul adalah es cingcau buah versi lebih lucu dari Es Genderewo. Es Tuyul ditambahkan kondimen yang memberi kesan lucu pada minuman ini.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa itu Es Tuyul
+    </pattern>
+    <template>
+        <srai>Es Tuyul</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa saja isi Es Tuyul
+    </pattern>
+    <template>
+        <srai>Es Tuyul</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        isi dari Es Tuyul
+    </pattern>
+    <template>
+        <srai>Es Tuyul</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Tuyul *
+    </pattern>
+    <template>
+        <srai>Es Tuyul</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Rasa Es Tuyul
+    </pattern>
+    <template>
+        Rasanya segar karena ada buah-buahan yang ditambahkan pada minuman ini, seperti potongan strawberry dan buah belimbing.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bagaimana Rasa Es Tuyul
+    </pattern>
+    <template>
+        <srai>Rasa Es Tuyul</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Sundel Bolong
+    </pattern>
+    <template>
+        Es Sundel Bolong merupakan minuman dingin yang terbuat dari susu dan sirup mocca
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa itu Sundel Bolong
+    </pattern>
+    <template>
+        <srai>Es Sundel Bolong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa saja isi Es Sundel Bolong
+    </pattern>
+    <template>
+        <srai>Es Sundel Bolong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        isi dari Es Sundel Bolong
+    </pattern>
+    <template>
+        <srai>Es Sundel Bolong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Sundel Bolong *
+    </pattern>
+    <template>
+        <srai>Es Sundel Bolong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Rasa Es Sundel Bolong
+    </pattern>
+    <template>
+        Rasanya manis dan segar
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bagaimana Rasa Es Sundel Bolong
+    </pattern>
+    <template>
+        <srai>Rasa Es Sundel Bolong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Pocong
+    </pattern>
+    <template>
+        Es Sundel Bolong merupakan minuman dingin yang terdiri dari sirup lechi dan buah buahan segar seperti stroberry, belimbing, sunquick lemon dan jeruk nipis slice serta tambahan sedikit boba.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa itu Pocong
+    </pattern>
+    <template>
+        <srai>Es Pocong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Apa saja isi Es Pocong
+    </pattern>
+    <template>
+        <srai>Es Pocong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        isi dari Es Pocong
+    </pattern>
+    <template>
+        <srai>Es Pocong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Es Pocong *
+    </pattern>
+    <template>
+        <srai>Es Pocong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Rasa Es Pocong
+    </pattern>
+    <template>
+        Rasanya asam manis dan segar
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bagaimana Rasa Es Pocong
+    </pattern>
+    <template>
+        <srai>Rasa Es Pocong</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Daftar minuman * 
+    </pattern>
+    <template>
+       <srai>minuman</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        request es
+    </pattern>
+    <template>
+       Mohon maaf kak, tidak bisa karena sudah sesuai porsi
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bisa request tanpa es *
+    </pattern>
+    <template>
+       <srai> request es</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Request less ice
+    </pattern>
+    <template>
+       <srai>request es</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bisa Request less ice
+    </pattern>
+    <template>
+       <srai>request es</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Request tambah es
+    </pattern>
+    <template>
+       <srai>request es</srai>
+    </template>
+</category>
+
+</aiml>

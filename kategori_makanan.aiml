@@ -1,0 +1,435 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+    <aiml version="2" encoding="ISO-8859-1">
+    <!-- bagian_awal.aiml -->
+
+<category>
+    <pattern>
+        ada makanan * 
+    </pattern>
+    <template>
+       <srai> makanan </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        jual makanan apa *
+    </pattern>
+    <template>
+       <srai> makanan </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        menu makanannya *
+    </pattern>
+    <template>
+       <srai> makanan </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        menu makanan 
+    </pattern>
+    <template>
+       <srai> makanan </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        makanan 
+    </pattern>
+    <template>
+       Kami menyediakan Mie dan Dimsum
+    </template>
+</category>
+
+<category>
+    <pattern>
+       jenis mie *
+    </pattern>
+    <template>
+       Kami menyediakan 
+       Mie Angel 10K~
+       Mie Setan Level 1-4 10K ~
+       Mie Setan Level 6-8 10,9K ~
+       Mie Iblis 0-4 10K ~
+       Mie Iblis 6-8 10,9K ~
+    </template>
+</category>
+
+<category>
+    <pattern>
+       mie
+    </pattern>
+    <template>
+       Kami menyediakan 
+       Mie Angel 10K~
+       Mie Setan Level 1-4 10K ~
+       Mie Setan Level 6-8 10,9K ~
+       Mie Iblis 0-4 10K ~
+       Mie Iblis 6-8 10,9K ~
+    </template>
+</category>
+
+<category>
+    <pattern>
+        mi
+    </pattern>
+    <template>
+       Kami menyediakan 
+       Mie Angel 10K~
+       Mie Setan Level 1-4 10K ~
+       Mie Setan Level 6-8 10,9K ~
+       Mie Iblis 0-4 10K ~
+       Mie Iblis 6-8 10,9K ~
+    </template>
+</category>
+
+
+<category>
+    <pattern>
+       jual mie *
+    </pattern>
+    <template>
+       Kami menyediakan 
+       Mie Angel 10K~
+       Mie Setan Level 1-4 10K ~
+       Mie Setan Level 6-8 10,9K ~
+       Mie Iblis 0-4 10K ~
+       Mie Iblis 6-8 10,9K ~
+    </template>
+</category>
+
+<category>
+    <pattern>
+       topping
+    </pattern>
+    <template>
+       Kami menyediakan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+       topping *
+    </pattern>
+    <template>
+       <srai>topping</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+      dimsum
+    </pattern>
+    <template>
+        Kami menyediakan 
+        siomay 9,1K~
+        udang rambutan 9,1K~
+        udang keju 9,1K~
+        lumpia udang 9,1K~
+        pangsit goreng 10K~
+        ceker 9,1K~
+    </template>
+</category>
+
+<category>
+    <pattern>
+      ada dimsum apa *
+    </pattern>
+    <template>
+        <srai>dimsum</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+      jual dimsum apa?
+    </pattern>
+    <template>
+        <srai>dimsum</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+      jenis dimsum apa 
+    </pattern>
+    <template>
+        <srai>dimsum</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+      apa saja jenis dimsum *
+    </pattern>
+    <template>
+        <srai>dimsum</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+      apa saja dimsum *
+    </pattern>
+    <template>
+        <srai>dimsum</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        isi dimsum
+    </pattern>
+    <template>
+        Dimsum masing-masing berisi 3 pcs kecuali pangsit dengan isi 5
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Berapa isi dimsum *
+    </pattern>
+    <template>
+        isi dimsum
+    </template>
+</category>
+
+<category>
+    <pattern>
+        isi dimsum *
+    </pattern>
+    <template>
+        isi dimsum
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa itu mie angel *
+    </pattern>
+    <template>
+        <srai>mie angel</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa itu mie angel
+    </pattern>
+    <template>
+        <srai>mie angel</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        mie angel
+    </pattern>
+    <template>
+        Mie Angel merupakan mie rasa original polos tanpa cabe dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        rasa mie angel *
+    </pattern>
+    <template>
+        Mie Angel merupakan mie rasa original polos tanpa cabe dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa rasa mie angel
+    </pattern>
+    <template>
+        Mie Angel merupakan mie rasa original polos tanpa cabe dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa itu mie setan *
+    </pattern>
+    <template>
+        <srai>mie setan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        mie setan
+    </pattern>
+    <template>
+        Mie Setan merupakan mie dengan rasa asin dan pedas dengan level yang bisa dipilih dari 1-8 dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        mie setan *
+    </pattern>
+    <template>
+        <srai>mie setan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        rasa mie setan
+    </pattern>
+    <template>
+        Mie Setan merupakan mie dengan rasa asin dan pedas dengan level yang bisa dipilih dari 1-8 dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bagaimana rasa mie setan
+    </pattern>
+    <template>
+        <srai>rasa mie setan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        level mie setan *
+    </pattern>
+    <template>
+        level yang bisa dipilih dari 1-8 dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        mie iblis
+    </pattern>
+    <template>
+        Mie iblis merupakan mie dengan rasa manis dan pedas dengan level yang bisa dipilih dari 0-8 dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        level mie iblis *
+    </pattern>
+    <template>
+        level yang bisa dipilih dari 1-8 dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        rasa mie iblis
+    </pattern>
+    <template>
+        Mie iblis merupakan mie dengan rasa manis dan pedas dengan level yang bisa dipilih dari 0-8 dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Bagaimana rasa mie iblis
+    </pattern>
+    <template>
+        <srai>rasa mie iblis</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa itu mie iblis *
+    </pattern>
+    <template>
+        Mie iblis merupakan mie dengan rasa manis dan pedas dengan level yang bisa dipilih dari 0-8 dengan topping daging ayam cincang dan pangsit kecil
+    </template>
+</category>
+
+<category>
+    <pattern>
+        sambal dipisah
+    </pattern>
+    <template>
+        Sambal dapat dipisah kak
+    </template>
+</category>
+
+<category>
+    <pattern>
+        bisa request topping *
+    </pattern>
+    <template>
+        Bisa kak
+    </template>
+</category>
+
+
+<category>
+    <pattern>
+        bisa pisah sambal
+    </pattern>
+    <template>
+        <srai>sambal dipisah</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Halal 
+    </pattern>
+    <template>
+        <random>
+        <li>Restoran kami sudah ber sertifikat halal kak</li>
+        <li>Restoran kami dijamin halal kak </li>
+        <li>Dijamin halal kak </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apakah menu disini halal 
+    </pattern>
+    <template>
+        <srai>halal</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apakah seluruh menu halal 
+    </pattern>
+    <template>
+        <srai>halal</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apakah menu ini halal
+    </pattern>
+    <template>
+        <srai>halal</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+        Halal *
+    </pattern>
+    <template>
+        <srai>Halal</srai>
+    </template>
+</category>
+
+</aiml>

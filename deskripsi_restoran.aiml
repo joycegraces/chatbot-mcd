@@ -1,0 +1,436 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+    <aiml version="2" encoding="ISO-8859-1">
+    <!-- bagian_awal.aiml -->
+
+<category>
+    <pattern>
+        lokasi
+    </pattern>
+    <template>
+       Mie Gacoan Colombo ~
+       Mie Gacoan Kotabaru ~
+       Mie Gacoan Taman siswa ~
+       Mie Gacoan Godean ~
+       Mie Gacoan Babarsari ~
+    </template>
+</category>
+
+<category>
+    <pattern>
+        lokasinya *
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        dimana aja lokasi *
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        dimana *
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        dimana
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        gacoan jogja
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       cabang *
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       buka cabang *
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       ada cabang *
+    </pattern>
+    <template>
+       <srai>lokasi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Mie Gacoan Colombo
+    </pattern>
+    <template>
+       Jl. Colombo Yogyakarta Baru No.1A, Mrican, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Lokasi Mie Gacoan Colombo
+    </pattern>
+    <template>
+       <srai> Mie Gacoan Colombo </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Dimana Lokasi Mie Gacoan Colombo
+    </pattern>
+    <template>
+       <srai> Mie Gacoan Colombo </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Mie Gacoan Kotabaru
+    </pattern>
+    <template>
+       Jl. Sudarso No.13, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Lokasi Mie Gacoan Kotabaru
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Kotabaru</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Dimana Lokasi Mie Gacoan Kotabaru
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Kotabaru</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Mie Gacoan Taman siswa
+    </pattern>
+    <template>
+      Gg. Pronocitro No.714-712, Wirogunan, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55151
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Lokasi Mie Gacoan Taman siswa
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Taman siswa</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Dimana Lokasi Mie Gacoan Taman siswa
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Taman siswa</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Mie Gacoan Godean
+    </pattern>
+    <template>
+       Jl. Ngapak - Kentheng, Modinan, Banyuraden, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Lokasi Mie Gacoan Godean
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Godean</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Dimana Lokasi Mie Gacoan Godean
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Godean</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Mie Gacoan Babarsari
+    </pattern>
+    <template>
+       Ruko Raflesia Babarsari No. A-15, Jl. Raya Kledokan, Yogyakarta, Indonesia
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Lokasi Mie Gacoan Babarsari
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Babarsari</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       Dimana Lokasi Mie Gacoan Babarsari
+    </pattern>
+    <template>
+      <srai>Mie Gacoan Babarsari</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+      jam buka
+    </pattern>
+    <template>
+      Kami buka setiap hari dari pukul 10.00 - 22.00 
+    </template>
+</category>
+
+<category>
+    <pattern>
+      buka jam berapa
+    </pattern>
+    <template>
+       <srai>jam buka</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+      apakah bisa takeaway *
+    </pattern>
+    <template>
+        bisa
+    </template>
+</category>
+
+<category>
+    <pattern>
+        bayar
+    </pattern>
+    <template>
+       Kami menerima pembayaran cash,scan QR dan Kartu Debit
+    </template>
+</category>
+
+<category>
+    <pattern>
+        bayar cash
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apakah bisa cash *
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apakah menerima pembayaran cash *
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        pembayaran cash
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        sistem bayar
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        metode bayar
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        metode pembayaran * 
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        jenis metode pembayaran
+    </pattern>
+    <template>
+       <srai>bayar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa tempat pakir luas *
+    </pattern>
+    <template>
+        Disetiap gerai gacoan tersedia tempat parkir
+    </template>
+</category>
+
+<category>
+    <pattern>
+        tempat outdoor *
+    </pattern>
+    <template>
+        Kami menyediakan tempat outdoor maupun indoor
+    </template>
+</category>
+
+<category>
+    <pattern>
+        tempat indoor *
+    </pattern>
+    <template>
+        Kami menyediakan tempat outdoor maupun indoor
+    </template>
+</category>
+
+<category>
+    <pattern>
+        mushola
+    </pattern>
+    <template>
+        Ada
+    </template>
+</category>
+
+<category>
+    <pattern>
+        tempat mushola
+    </pattern>
+    <template>
+        <srai>mushola</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>pemilik</pattern>
+    <template>
+        Pemilik Restoran Gacoan adalah Bapak Harris Kristanto
+    </template>
+</category>
+
+<category>
+    <pattern>nama pemilik</pattern>
+    <template>
+        <srai>pemilik</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>siapa nama pemilik *</pattern>
+    <template>
+        <srai>pemilik</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>siapa pemilik *</pattern>
+    <template>
+        <srai>pemilik</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>siapa pendiri * </pattern>
+    <template>
+        <srai>pemilik</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>siapa nama pendiri *</pattern>
+    <template>
+        <srai>pemilik</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>siapa nama pendiri *</pattern>
+    <template>
+        <srai>pemilik</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>apakah ada wifi *</pattern>
+    <template>
+        <srai>pemilik</srai>
+    </template>
+</category>
+
+</aiml>

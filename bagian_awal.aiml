@@ -1,0 +1,147 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+    <aiml version="2" encoding="ISO-8859-1">
+    <!-- bagian_awal.aiml -->
+<category>
+    <pattern>
+        Selamat *
+    </pattern>
+    <template>
+        <random>
+        <li> Selamat <star/>  Hallo Gacoan Lovers!!, Selamat Datang di Chatbot Restoran Gacoan. Ada yang bisa saya bantu? </li>
+        <li> Hallo Gacoan Lovers!!, Selamat <star/> Selamat Datang di Chatbot Restoran Gacoan. Ada yang bisa saya bantu? </li>
+        <li> Hallo Gacoan Lovers!!, Selamat <star/> Selamat Datang, ada yang bisa saya bantu ? </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Hallo * 
+    </pattern>
+    <template>
+        <srai>Hallo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Hallo
+    </pattern>
+    <template>
+        <random>
+        <li> Hallo Gacoan Lovers!!, Selamat Datang di Chatbot Restoran Gacoan. Ada yang bisa saya bantu? </li>
+        <li> Hallo Pelanggan setia Gacoan!!, Selamat Datang di Chatbot Restoran Gacoan. Ada yang bisa saya bantu? </li>
+        <li> Hallo Gacoan Lovers!!, Selamat Datang. Ada yang bisa saya bantu ? </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Hai
+    </pattern>
+    <template>
+        <srai>Hallo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Daftar Menu
+    </pattern>
+    <template>
+        <random>
+        <li>Kami memiliki menu makanan dan minuman, pilih yang mana kak?</li>
+        <li>Daftar menu kami terdiri dari makanan dan minuman, mau pilih yang mana kak?</li>
+        <li> Menu kami terdiri dari makanan dan minuman, silahkan dipilih ingin tau menu yang mana kak </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Ada menu *
+    </pattern>
+    <template>
+        <srai>Daftar Menu</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        menu
+    </pattern>
+    <template>
+        <srai>Daftar Menu</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        rekomendasi menu
+    </pattern>
+    <template>
+        Berikut beberapa rekomendasi menu Kami :
+        Mie Iblis       10K ~
+        Udang Keju      9,1K ~
+        Es Genderuwo    9,1k ~
+    </template>
+</category>
+
+<category>
+    <pattern>
+        rekomendasi menu *
+    </pattern>
+    <template>
+        <srai>rekomendasi menu</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        menu recommended
+    </pattern>
+    <template>
+        <srai>rekomendasi menu</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        menu ter recommended *
+    </pattern>
+    <template>
+        <srai>rekomendasi menu</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        menu paling laku
+    </pattern>
+    <template>
+        <srai>rekomendasi menu</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        menu paling laris
+    </pattern>
+    <template>
+        <srai>rekomendasi menu</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        apa saja menu rekomendasi 
+    </pattern>
+    <template>
+        <srai>rekomendasi menu</srai>
+    </template>
+</category>
+
+
+
+
+</aiml>
